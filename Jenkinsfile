@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/JorgeAAV2005/PruebasGo.git'
+                git 'https://github.com/vastekruz/viernes-3.git'
             }
         }
         stage('Test') {
